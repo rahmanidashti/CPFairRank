@@ -1,2 +1,2 @@
-# exCPFair
+# CPFairRank
 Extension of CPFair
