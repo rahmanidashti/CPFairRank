@@ -13,3 +13,10 @@ All the datasets used in the experiments are in the `datasets` folder. Each data
   - [DatasetName]_train.txt
   - [DatasetName]_test.txt
   - [DatasetName]_tune.txt
+
+## Recommendation Lists (rec_lists)
+The `rec_lists` folder contains all the generated recommendations for users based on the models and datassets.
+
+- The files are tab-seprated in which the first column is a `user_id` and the second column is the list of id of recommended items (`item_ids`).
+- For the unfairness-aware recommendation (`N`), we have top-50 while for fairness-aware recommendation (`C`, `P`, or `CP`) we only have the top-10 recommended items.
+- The filename structure is `rec_list_[DATASET]_[BASE-MODEL]_[ReRanking-MODEL].txt`
