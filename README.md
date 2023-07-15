@@ -15,7 +15,10 @@ All the datasets used in the experiments are in the `datasets` folder. Each data
 ### Folder
   - __groups__: The *group* folder includes two sub-folders:
     - __items__: In the *items* folder we have another folder, __020__, that indicates we use top 20% of items as short-head (popular) items and the rest 80% items as long-tail (unpopular) items. Thus, it contains two files, the item groups (`longtail_items.txt` and `shorthead_items.txt`).
-    - __users__:  and in users folder we have two folders (`005`,  `20`). `005` referes to the first user grouping method, UG1 and `20` is the econf user grouping method, i.e., UG2 and each includes two user group files, i.e., `active_ids.txt` and `inactive_ids.txt`.
+    - __users__: In *users* folder we have three sub-folders including `005`, `020`, and `20`. In this paper, we use `005` and `20` user grouping. `005` is the first user grouping method, __UG1__, and `20` is the second user grouping method, __UG2__. Each folder includes two user group files, i.e., `active_ids.txt` and `inactive_ids.txt`:
+      
+      - `005`: The level of user activity (__UG1__)
+      - `20`: The consumption of popular items in user profile (__UG2__)
 
 ## Recommendation Lists (rec_lists)
 The `rec_lists` folder contains all the generated recommendations for users based on the models and datassets.
