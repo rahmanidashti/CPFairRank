@@ -1,5 +1,5 @@
-# CPFairRank
-Extension of CPFair
+# CP-FairRank
+A Personalized Framework for Consumer and Producer Group Fairness Optimization in Recommender Systems (ACM TORS 2024)
 
 ## Datasets
 All the datasets used in the experiments are in the `datasets` folder. Each dataset contains several files and a folder including:
